@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	float sum;
+	while(t-->0){
+		sum=0;
+		float a,b;
+		cin>>a>>b;
+		sum=a+b;
+		if(sum==int(sum)){
+			cout<<(int)sum;
+		}
+		else{
+			cout<<sum;
+		}
+		cout<<endl;
+	}
+	return 0;
+}
