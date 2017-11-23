@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	int i=1;
+	while(t-->0){
+		char name[70];
+		cin>>name;
+		int sum=0;
+		for(int j=0;j<strlen(name);j++){
+			sum+=name[j];
+		}
+		cout<<"Case "<<i<<": ";
+		if(sum%3==0) cout<<"Yes";
+		else cout<<"No";
+		i++;
+		cout<<endl;
+	}
+	return 0;
+}
