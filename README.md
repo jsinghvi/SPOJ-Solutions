@@ -1,3 +1,3 @@
 # SPOJ-Solutions
 Not organized, but you can find solutions for the SPOJ problems here. 
-Open an issue tp suggest any edits. 
+Open an issue to suggest any edits. 
